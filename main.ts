@@ -4,6 +4,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.tile2, function (sprite, location
     music.jumpUp.play()
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLadder, function (sprite, location) {
+    info.startCountdown(40)
     vill = sprites.create(img`
         ........................
         ........................
@@ -68,6 +69,9 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.tile1, function (sprite, location
     info.changeScoreBy(1)
     tiles.setTileAt(location, myTiles.tile3)
     music.baDing.play()
+})
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (sprite, location) {
+    game.over(true, effects.confetti)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestOpen, function (sprite, location) {
     info.changeScoreBy(4)
