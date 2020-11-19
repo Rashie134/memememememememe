@@ -19,6 +19,22 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
+    "level": {
+        "id": "level",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNTAxMDAwMDAwMDEwMTAxMDYwMTAxMDEwMTAxMDEwMTAxMDEwMTAwMDAwMDAwMDEwMDAwMDAwMDAwMDcwMDAwMDAwMTAxMDcwMDAwMDEwMTAxMDEwMTAxMDEwMDAxMDEwMDAxMDEwMTAxMDAwMTAxMDAwNDAwMDAwMTAwMDEwMTAwMDEwMDAwMDAwMDAxMDEwMDAxMDEwMDAxMDAwMTAxMDAwMTAxMDEwMTAwMDEwMTA3MDAwMDAwMDAwMDAxMDAwMDAxMDEwMTAxMDAwMTA2MDEwMTAxMDAwMTAxMDEwMDAxMDEwMTAxMDAwMDAxMDAwMDAwMDEwMDAxMDEwMTAwMDEwMTAxMDEwMDAxMDEwMDAxMDAwMTAwMDEwMDAwMDAwMTAxMDcwMDAwMDEwMTAwMDEwMDAxMDAwMTAwMDEwMDAxMDEwMDAxMDAwMTAxMDAwMTA4MDAwMDAxMDAwMDAwMDEwMTAwMDEwMDAxMDAwMDAxMDEwMTAxMDEwMDAxMDAwMTAxMDAwMTAwMDAwMDAxMDAwMDAwMDAwMDAwMDEwNzAxMDEwMDAxMDAwMTAxMDEwMDAxMDEwMTAxMDEwMTAxMDEwMTA1MDEwMTAxMDEwMTAwMDAwMDAwMDAwMDAwMDAwMDAzMDAwMDAwMDAwMDAwMDAyMDAwMjAyMjIyMjIyMjIyMjIwMjAwMjAwMDAwMDAwMDIwMDIwMDIyMjIyMjAyMjIyMDIyMDIyMjAwMDAwMjIyMjAwMDAwMjIyMDAyMDIyMjIwMjIwMjIyMDAwMDAwMDIyMDIyMDIyMjIyMDIyMjAyMjIyMjAwMDIwMDAyMjIwMjIyMjIyMDAyMDIwMjAyMDAyMjAwMjAwMjAyMDIwMjAyMjIyMDIwMDIwMjAwMDIwMDIyMjAyMDAwMjIyMjAyMDIyMjIwMDAyMDAwMDAwMDAyMjIyMDIwMjIyMDIyMjIyMjIyMjAyMjIyMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.darkGroundCenter",
+            "sprites.dungeon.collectibleRedCrystal",
+            "sprites.dungeon.stairLadder",
+            "sprites.dungeon.chestOpen",
+            "sprites.dungeon.chestClosed",
+            "sprites.dungeon.purpleSwitchDown",
+            "myTiles.tile1",
+            "myTiles.tile2"
+        ]
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
